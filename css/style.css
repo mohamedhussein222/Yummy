@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(13,13,13);
+    
+}
+.links , .nav-footer{
+    color: rgb(255,255,255);
+}
+
+.side-nav-menu{
+    width: 20%;
+    z-index: 9999999999999 !important;
+   
+}
+.nav-header{
+    width: 50%;
+    z-index: 999999999999;
+}
+.nav-tab{
+    transition: all 50s;
+    z-index: 999999999999;
+}
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:100%;
+    left: 0;
+    transition: all 0.8s;
+    background-color: rgba(255 ,255 , 255 , 0.7);
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+.meal{
+    transition: all 0.5s;
+}
+.c-id{
+    color: #f9f6f6 ;
+}
